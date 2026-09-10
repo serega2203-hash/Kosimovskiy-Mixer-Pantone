@@ -25,7 +25,7 @@ jobs:
       - name: Extract project
         run: |
           mkdir -p buildsrc
-          unzip -q "Kosimovskiy_Mixer_Pantone_v1.4_phone_build_FIXED.zip" -d buildsrc
+          unzip -q "Kosimovskiy_Mixer_Pantone_v1.4_phone_build_FIXED2.zip" -d buildsrc
 
       - name: Prepare Pantone database
         working-directory: buildsrc/PantoneMixer
